@@ -26,7 +26,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.9.18'
+          python-version: '3.11'
           cache: 'pip' # caching pip dependencies
           cache-dependency-path: ambient_sound_analysis/requirements_noise.txt
 
