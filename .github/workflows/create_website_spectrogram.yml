@@ -37,7 +37,7 @@ jobs:
           pip install -r ambient_sound_analysis/requirements_noise.txt
           pip install ipykernel
           pip install nbconvert
-
+# install ffmpeg
       - name: Install ffmpeg
         run: |
           sudo apt-get update
